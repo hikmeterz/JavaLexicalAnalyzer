@@ -3,14 +3,14 @@
 This repository contains a Java program that performs lexical analysis on a given input file containing Java code. The program reads the input file, identifies tokens, and outputs the results of the lexical analysis to an output file. It also detects and reports lexical errors in the code.
 
 ## Files
-- `hw1_hikmet_terzioglu.java`: Java program that performs lexical analysis.
+- `Lexical.java`: Java program that performs lexical analysis.
 - `input.txt`: Sample input file containing Java code for analysis.
 - `output1.txt`, `output9.txt`, `output11.txt`, `output12.txt`: Sample output files showing the results of the lexical analysis.
 - `sample.txt`: Example output file demonstrating the expected format of the analysis results.
 
 ## Java Program Description
 
-### `hw1_hikmet_terzioglu.java`
+### `Lexical.java`
 This Java program reads a file containing Java code and performs lexical analysis to identify tokens such as keywords, identifiers, operators, and literals. The program also checks for lexical errors and reports them. The results of the analysis are written to an output file.
 
 ### Key Features:
@@ -27,7 +27,7 @@ char c;
 }
 return 0;
 
-### Example Output (sample.txt)
+Example Output (sample.txt)
 
 Next token is FOR_STATEMENT Next lexeme is for
 Next token is LPARANT Next lexeme is (
