@@ -5,7 +5,7 @@ import java.io.IOException;
 
 
 import java.io.FileWriter;
-public class hw1_hikmet_terzioglu{
+public class Lexical{
     public static void main(String[] args) {
         File file = new File(args[0]);
         FileWriter myWriter;
